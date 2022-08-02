@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="Tienda de vinos. Contamos con una amplia gama de etiquetas seleccionadas para nuestros clientes, podrás elegir entre distintas bodegas. Apostamos a los buenos momentos ">
+    <meta name="keywords" content="vinos, momentos, bodegas, tienda, compra">
+    <title>CAVA | Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./sass/main.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
+    <!-- Bootstrap css -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/3535285719.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+ <header>
+  <div class="logo">
+    <a href="">  <img src="./img/cavaLogo.png" alt=""></a>
+  </div>
+  
+  <nav class="menu">
+    <input type="checkbox" id="check">
+    <label for="check" class="bar-btn">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <ul class="nav-menu">
+      
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="./pages/nosotros.html">Nosotros</a></li>
+      <li><a href="./pages/catalogo.html">Catálogo  <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="submenu">
+          <li><a href="./pages/catalogo.html#vinosTintos">Vinos Tintos</a></li>
+          <li><a href="./pages/catalogo.html#vinosBlancos">Vinos Blancos</a></li>
+        </ul>
+      </li>
+      <li><a href="./pages/comoComprar.html">Cómo comprar  <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="submenu">
+          <li><a href="./pages/comoComprar.html#3cuotas">Cuotas sin interés</a></li>
+          <li><a href="./pages/comoComprar.html#envio-gratis">Envío gratis</a></li>
+          <li><a href="./pages/contacto.html">Venta Mayorista</a></li>
+        </ul>
+      </li>
+      <li><a href="./pages/contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+ </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/ofertas/casillero.png" class="d-block w-100" alt="vinos casillero del diablo oferta">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/ofertas/lataSantaJulia.png" class="d-block w-100" alt="envío gratis lata Santa Julia">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/ofertas/diablo.png" class="d-block w-100" alt="vino diablo nuevo ingreso">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <section class="pasosCompra">
+      <img src="./img/comprar-pasos.png" class="img-fluid" alt="pasos para la compra">
+    </section> 
+
+    <main class="contenido">
+        <div class="containerNovedades p-5">
+            <div>
+              <h2 class="title">Bodegas preferidas por nuestros clientes</h2>
+            </div> 
+            
+            <div class="row  row-cols-md-3 g-5  justify-content-center">
+              <div class="col-xl-3">
+                <div class="card carta">
+                  <img src="./img/bodegas/cardCasillero.jpg" class="card-img-top" alt="bodega Casillero del Diablo">
+                  <div class="card-body">
+                    <h5 class="card-title">Casillero del Diablo</h5>
+                    <p class="card-text">Un susurro que se convirtió en leyenda: la historia de Casillero del Diablo.
+                      De las semillas de un simple rumor, nació su historia.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3">
+                <div class="card carta">
+                  <img src="./img/bodegas/cardTrapiche.jpg" class="card-img-top"  alt="bodega Trapiche">
+                  <div class="card-body">
+                    <h5 class="card-title ">Trapiche</h5>
+                    <p class="card-text">Rodeada de un paisaje natural único delineado por sus viñedos y olivares, se encuentra nuestra bodega en Maipú. No sólo es digno de admirar el entorno natural que la rodea, sino también su construcción de estilo renacentista que data del año 1912 y es considerado uno de los íconos de la arquitectura vitivinícola argentina.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3">
+                <div class="card carta">
+                  <img src="./img/bodegas/donBosco.jpg" class="card-img-top" alt="bodega Don Bosco">
+                  <div class="card-body">
+                    <h5 class="card-title">Don Bosco</h5>
+                    <p class="card-text">Bodega Don Bosco tiene una rica y larga historia, una de las más antiguas e importantes de la vitivinicultura argentina, siempre ligada íntimamente a la dedicada labor de los salesianos. .</p>
+                  </div>
+                </div>
+              </div> 
+            </div>
+        </div> 
+
+        
+    </main>
+ 
+    <footer>
+        <nav class="navbar">
+            <div class="container  p-2 ">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./img/cavaLogo.png" alt="logoCava" width="250px">
+              </a>
+              <div class="newsletter">
+                <h1 class="fs-5 d-flex justify-content-center"> Suscribite a nuestro newsletter</h1>
+              <div class=" mb-3 d-flex">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su email">
+                <button type="submit" class="p-1">Enviar</button>
+              </div>
+              </div>
+              <div class="footerRedes">
+                <h1 class="fs-5 mr-4">Seguinos en nuestras redes</h1>
+                <div class="iconos d-flex align-items-center justify-content-center mt-2">
+                  <a class="navbar-brand" href="https://www.instagram.com/">
+                    <img src="./img/iconoI.png" alt="logoIG" width="80" height="48" class="d-inline-block align-text-top"></a>
+                  <a class="navbar-brand" href="https://www.facebook.com/">
+                    <img src="./img/fbIcon.png" alt="logoFB" width="30" height="24" class="d-inline-block align-text-top"></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </footer> 
+
+<!-- Bootstrap JS -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+</body>
+</html>

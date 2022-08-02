@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* FONTS */
+//font-family: 'Ibarra Real Nova', serif;
+/* VARIABLES */
+@import 'vars';
+
+/* EXTEND */
+.title{
+    font-family: 'Cormorant SC', serif;
+    color: #dfe6e9;
+}
+/* APLICA A TODAS LAS PÁGINAS */
+
+@import 'menu';
+
+
+/* index */
+@import 'index';
+
+/* NOSOTROS */
+@import 'nosotros';
+/* CATÁLOGO */
+@import 'catalogo';
+
+/* SECCIÓN INFO COMPRAS */
+@import 'comoComprar';
+
+/* CONTACTO */
+@import 'contacto';

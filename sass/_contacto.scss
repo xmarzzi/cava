@@ -1,0 +1,24 @@
+#contacto{
+    background-image: url(../img/contactoFondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    .formularioContacto{
+        display: flex;
+        justify-content: center;
+        padding: 15%;
+        & form div{
+            padding: 3px;
+            background-color: rgb(247, 244, 242, 0.3);
+            display: flex;
+            flex-direction: column;
+            padding: 5px 15px;
+        }
+    }
+}
+
+@media (max-width:$desktop) {
+    .formularioContacto form div input{
+        width: 100%;
+    }
+
+}
