@@ -3,9 +3,32 @@
  
 }
 
-.container{
-    p{
-        margin-top: 5px;
-        padding: 15px;
+    .compras{
+        .vista-mobile{
+            background-image: url(../img/portada3cuotas.avif);
+            background-size: cover;
+            padding: 45px;
+            width: 70%;
+            margin: auto;
+            
+            p{
+                
+                text-align: center;
+                color: #fff;
+                padding: 45px;
+                background:rgba(0, 0, 0, 0.6);
+            }
+        }
+        p{
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+@media (max-width:$mobile){
+    .compras{
+        .vista-mobile{
+            padding: 15px;
+        }
     }
 }

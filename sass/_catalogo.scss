@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+.catalogo{
+    & h2{
+        background-image: url(../img/marmol-rojo.avif);
+        background-size: cover;
+        padding: 45px;
+    }
+}
+
 .content ul{
     padding: 1rem;
     list-style: none;
@@ -20,11 +29,13 @@
         .item_description{
             display: flex;
             flex-direction: column;
-            span{
-                color: blue;
+            .precio{
+                color: #000;
+                font-weight: 600;
             }
             .envio_gratis{
                 font-size: 15px;
+                font-weight: 300;
                 color: green;
             }
             p{

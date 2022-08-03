@@ -19,6 +19,11 @@
   background-color: #191919;
 }
 
+.subtitle {
+  font-family: "Clash Grotesk", sans-serif;
+  color: #fff;
+}
+
 /* APLICA A TODAS LAS PÁGINAS */
 * {
   margin: 0;
@@ -574,6 +579,12 @@ footer h1 {
   padding: 0;
 }
 
+.catalogo h2 {
+  background-image: url(../img/marmol-rojo.avif);
+  background-size: cover;
+  padding: 45px;
+}
+
 .content ul {
   padding: 1rem;
   list-style: none;
@@ -592,11 +603,13 @@ footer h1 {
   display: flex;
   flex-direction: column;
 }
-.content ul li .item_description span {
-  color: blue;
+.content ul li .item_description .precio {
+  color: #000;
+  font-weight: 600;
 }
 .content ul li .item_description .envio_gratis {
   font-size: 15px;
+  font-weight: 300;
   color: green;
 }
 .content ul li .item_description p {
@@ -620,11 +633,29 @@ footer h1 {
   margin-bottom: 25px;
 }
 
-.container p {
-  margin-top: 5px;
-  padding: 15px;
+.compras .vista-mobile {
+  background-image: url(../img/portada3cuotas.avif);
+  background-size: cover;
+  padding: 45px;
+  width: 70%;
+  margin: auto;
+}
+.compras .vista-mobile p {
+  text-align: center;
+  color: #fff;
+  padding: 45px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.compras p {
+  text-align: center;
+  color: #fff;
 }
 
+@media (max-width: 576px) {
+  .compras .vista-mobile {
+    padding: 15px;
+  }
+}
 /* CONTACTO */
 #contacto {
   background-image: url(../img/contactoFondo.jpg);

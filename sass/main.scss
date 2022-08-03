@@ -6,6 +6,7 @@
 }
 /* FONTS */
 //font-family: 'Ibarra Real Nova', serif;
+//font-family: 'Clash Grotesk', sans-serif;
 /* VARIABLES */
 @import 'vars';
 
@@ -16,6 +17,10 @@
 }
 .dark-bg{
     background-color: #191919;
+}
+.subtitle{
+    font-family: 'Clash Grotesk', sans-serif;
+    color: #fff
 }
 /* APLICA A TODAS LAS PÁGINAS */
 
