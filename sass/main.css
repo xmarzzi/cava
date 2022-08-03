@@ -653,6 +653,7 @@ footer h1 {
 
 @media (max-width: 576px) {
   .compras .vista-mobile {
+    width: 100%;
     padding: 15px;
   }
 }
