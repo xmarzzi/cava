@@ -104,7 +104,9 @@ nav ul li:hover .submenu{
             }
     
         } 
-       
+        nav ul li:hover .submenu{
+            display: inline-block;
+           }
         .nav-menu li{
             display: none;
         }

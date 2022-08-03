@@ -15,6 +15,10 @@
   color: #dfe6e9;
 }
 
+.dark-bg {
+  background-color: #191919;
+}
+
 /* APLICA A TODAS LAS PÁGINAS */
 * {
   margin: 0;
@@ -117,6 +121,9 @@ nav ul li .submenu li {
     width: 100%;
     position: relative;
     background-color: #5C715E;
+  }
+  header nav ul li:hover .submenu {
+    display: inline-block;
   }
   header .nav-menu li {
     display: none;
@@ -456,9 +463,17 @@ footer h1 {
   text-align: center;
 }
 
-main h1 {
+.dark {
+  background: #191919;
+  padding-bottom: 20px;
+}
+.dark h1 {
   text-align: center;
-  margin: 25px;
+  padding-top: 30px;
+  background-color: #191919;
+}
+.dark .tiposVino {
+  text-decoration: underline;
 }
 
 @media (min-width: 1500px) {
@@ -525,9 +540,9 @@ main h1 {
     transform: scale(2.8) translate3d(-18%, 0px, 0px);
   }
   .container__image:hover .container__info {
-    transform: translate3d(-60%, 0px, 0px);
+    transform: translate3d(-120%, 0px, 0px);
     opacity: 1;
-    color: #ffffff;
+    color: #fff;
   }
   .link {
     border-bottom: 1px solid transparent;
@@ -538,6 +553,19 @@ main h1 {
   .link:hover {
     background-color: #06C0A8;
     color: #ffffff;
+  }
+}
+@media (max-width: 1500px) {
+  .portadaNosotros {
+    color: #fff;
+    background-image: url(../img/valores.avif);
+    height: 100vh;
+  }
+  .portadaNosotros h1 {
+    padding-bottom: 10px;
+  }
+  .portadaNosotros p {
+    background: rgba(0, 0, 0, 0.6);
   }
 }
 /* CATÁLOGO */
