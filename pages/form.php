@@ -10,10 +10,10 @@ $mensaje = $_POST['mensaje'];
 $destinatario = "xavier.martinuzzi@gmail.com";
 $asunto = "Contacto desde CAVA | Tienda digital de vinos";
 
-$carta = "Este mensaje fue enviado por: : $nombre \n";
-$carta = "Su e-mail es: : $correo \n";
-$carta = "Telefono de contacto : $telefono \n";
-$carta = "Mensaje: $mensaje";
+$carta = "Este mensaje fue enviado por: $nombre \n";
+$carta .= "Su e-mail es: $correo \n";
+$carta .= "Telefono de contacto: $telefono \n";
+$carta .= "Mensaje: $mensaje";
 
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
