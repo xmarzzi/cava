@@ -8,11 +8,11 @@ $mensaje = $_POST['mensaje'];
 
 // Datos para el correo
 $destinatario = "xavier.martinuzzi@gmail.com";
-$asunto = "Contacto desde nuestra web";
+$asunto = "Contacto desde CAVA | Tienda digital de vinos";
 
-$carta = "De: $nombre \n";
-$carta = "Correo: $correo \n";
-$carta = "Telefono: $telefono \n";
+$carta = "Este mensaje fue enviado por: : $nombre \n";
+$carta = "Su e-mail es: : $correo \n";
+$carta = "Telefono de contacto : $telefono \n";
 $carta = "Mensaje: $mensaje";
 
 // Enviando Mensaje
