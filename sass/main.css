@@ -680,4 +680,15 @@ footer h1 {
   .formularioContacto form div input {
     width: 100%;
   }
+}
+/* EXITO */
+.exito {
+  background-image: url(../img/uva-enviar.avif);
+  background-size: cover;
+  height: 80vh;
+}
+.exito h2 {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 25px 5px;
 }/*# sourceMappingURL=main.css.map */
