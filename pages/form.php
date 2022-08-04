@@ -1,17 +1,22 @@
-<?php
-$nombre = $_POST ['nombre'];
-$telefono = $_POST ['celular'];
-$email = $_POST ['correo'];
-$mensaje = $_POST ['mensaje'];
+<?php  
 
-$mensaje = "Este mensaje fue enviado por " $nombre  "\r\n";
-$mensaje = "Su telefono es: " $telefono  "\r\n";
-$mensaje = "Su e-mail es: " $email  "\r\n";
-$mensaje = "Mensaje: " $_POST ['mensaje']  "\r\n";
+// Llamando a los campos
+$nombre = $_POST['nombre'];
+$correo = $_POST['correo'];
+$telefono = $_POST['celular'];
+$mensaje = $_POST['mensaje'];
 
-$destinatario = "xavier.martinuzzi@gmail.com";
-$asunto = "Este mail fue enviado desde la web CAVA";
+// Datos para el correo
+$destinatario = "jofre.emma92@gmail.com";
+$asunto = "Contacto desde nuestra web";
 
-mail ($destinatario, $asunto,$mensaje);
+$carta = "De: $nombre \n";
+$carta .= "Correo: $correo \n";
+$carta .= "Telefono: $telefono \n";
+$carta .= "Mensaje: $mensaje";
+
+// Enviando Mensaje
+mail($destinatario, $asunto, $carta);
 header('Location:exito.html');
+
 ?>
